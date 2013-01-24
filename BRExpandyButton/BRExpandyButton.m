@@ -61,6 +61,10 @@
     }
     [self layout];
 }
+-(void)setSelectedButton:(UIButton *)_selectedButton{
+    selectedButton=_selectedButton;
+    [self layout];
+}
 -(void)setImage:(UIImage *)_image{
     image=_image;
     imageView.image=image;

@@ -7,7 +7,6 @@
 //
 
 #import "BRViewController.h"
-#import "BRExpandyButton.h"
 
 @interface BRViewController ()
 
@@ -20,13 +19,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    UIButton *autoButton=[UIButton buttonWithType:UIButtonTypeCustom];
+     autoButton=[UIButton buttonWithType:UIButtonTypeCustom];
     [autoButton setTitle:@"auto" forState:UIControlStateNormal];
     [autoButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     CGRect frame=autoButton.frame;
     frame.size.height=44;
     frame.size.width=60;
     autoButton.frame=frame;
+    [autoButton addTarget:self action:@selector(autoButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+    
     
     UIButton *onButton=[UIButton buttonWithType:UIButtonTypeCustom];
     [onButton setTitle:@"on" forState:UIControlStateNormal];
@@ -46,17 +47,30 @@
     frame.size.width=50;
     offButton.frame=frame;
     
-    BRExpandyButton *expandButton=[[BRExpandyButton alloc] initWithFrame:CGRectMake(20, 20, 100, 34)];
+    expandButton=[[BRExpandyButton alloc] initWithFrame:CGRectMake(20, 20, 100, 34)];
     expandButton.buttons=@[autoButton,onButton,offButton];
     expandButton.image=[UIImage imageNamed:@"Lightning-32.png"];
     
     [self.view addSubview:expandButton];
+    
+    UIButton *anotherButton=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [anotherButton setTitle:@"select auto" forState:UIControlStateNormal];
+    [anotherButton addTarget:self action:@selector(toAutoButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+    anotherButton.frame=CGRectMake(20,100, 200, 200);
+    [self.view addSubview:anotherButton];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)autoButtonPressed{
+    NSLog(@"pressed");
+}
+-(void)toAutoButtonPressed{
+    expandButton.selectedButton=autoButton;
 }
 
 @end

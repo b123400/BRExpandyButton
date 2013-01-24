@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BRExpandyButton.h"
 
-@interface BRViewController : UIViewController
+@interface BRViewController : UIViewController{
+    UIButton *autoButton;
+    BRExpandyButton *expandButton;
+}
 
 @end
