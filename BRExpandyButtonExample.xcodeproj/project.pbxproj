@@ -18,6 +18,9 @@
 		CF2C2D8216B1E4A500EF1593 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D8116B1E4A500EF1593 /* Default-568h@2x.png */; };
 		CF2C2D8516B1E4A500EF1593 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C2D8416B1E4A500EF1593 /* BRViewController.m */; };
 		CF2C2D8816B1E4A500EF1593 /* BRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D8616B1E4A500EF1593 /* BRViewController.xib */; };
+		CF2C2D9116B1E4C500EF1593 /* BRExpandyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C2D9016B1E4C500EF1593 /* BRExpandyButton.m */; };
+		CF2C2D9316B1EF4700EF1593 /* Lightning-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D9216B1EF4700EF1593 /* Lightning-32.png */; };
+		CF2C2D9516B1F36A00EF1593 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C2D9416B1F36A00EF1593 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		CF2C2D8316B1E4A500EF1593 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
 		CF2C2D8416B1E4A500EF1593 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
 		CF2C2D8716B1E4A500EF1593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BRViewController.xib; sourceTree = "<group>"; };
+		CF2C2D8F16B1E4C500EF1593 /* BRExpandyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRExpandyButton.h; path = BRExpandyButton/BRExpandyButton.h; sourceTree = "<group>"; };
+		CF2C2D9016B1E4C500EF1593 /* BRExpandyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRExpandyButton.m; path = BRExpandyButton/BRExpandyButton.m; sourceTree = "<group>"; };
+		CF2C2D9216B1EF4700EF1593 /* Lightning-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lightning-32.png"; sourceTree = "<group>"; };
+		CF2C2D9416B1F36A00EF1593 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,7 @@
 			files = (
 				CF2C2D6C16B1E4A400EF1593 /* UIKit.framework in Frameworks */,
 				CF2C2D6E16B1E4A400EF1593 /* Foundation.framework in Frameworks */,
+				CF2C2D9516B1F36A00EF1593 /* QuartzCore.framework in Frameworks */,
 				CF2C2D7016B1E4A500EF1593 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +64,7 @@
 		CF2C2D5C16B1E4A400EF1593 = {
 			isa = PBXGroup;
 			children = (
+				CF2C2D8E16B1E4AB00EF1593 /* BRExpandyButton */,
 				CF2C2D7116B1E4A500EF1593 /* BRExpandyButtonExample */,
 				CF2C2D6A16B1E4A400EF1593 /* Frameworks */,
 				CF2C2D6816B1E4A400EF1593 /* Products */,
@@ -73,6 +82,7 @@
 		CF2C2D6A16B1E4A400EF1593 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF2C2D9416B1F36A00EF1593 /* QuartzCore.framework */,
 				CF2C2D6B16B1E4A400EF1593 /* UIKit.framework */,
 				CF2C2D6D16B1E4A400EF1593 /* Foundation.framework */,
 				CF2C2D6F16B1E4A400EF1593 /* CoreGraphics.framework */,
@@ -88,6 +98,7 @@
 				CF2C2D8316B1E4A500EF1593 /* BRViewController.h */,
 				CF2C2D8416B1E4A500EF1593 /* BRViewController.m */,
 				CF2C2D8616B1E4A500EF1593 /* BRViewController.xib */,
+				CF2C2D9216B1EF4700EF1593 /* Lightning-32.png */,
 				CF2C2D7216B1E4A500EF1593 /* Supporting Files */,
 			);
 			path = BRExpandyButtonExample;
@@ -105,6 +116,15 @@
 				CF2C2D8116B1E4A500EF1593 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF2C2D8E16B1E4AB00EF1593 /* BRExpandyButton */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D8F16B1E4C500EF1593 /* BRExpandyButton.h */,
+				CF2C2D9016B1E4C500EF1593 /* BRExpandyButton.m */,
+			);
+			name = BRExpandyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +184,7 @@
 				CF2C2D8016B1E4A500EF1593 /* Default@2x.png in Resources */,
 				CF2C2D8216B1E4A500EF1593 /* Default-568h@2x.png in Resources */,
 				CF2C2D8816B1E4A500EF1593 /* BRViewController.xib in Resources */,
+				CF2C2D9316B1EF4700EF1593 /* Lightning-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				CF2C2D7816B1E4A500EF1593 /* main.m in Sources */,
 				CF2C2D7C16B1E4A500EF1593 /* BRAppDelegate.m in Sources */,
 				CF2C2D8516B1E4A500EF1593 /* BRViewController.m in Sources */,
+				CF2C2D9116B1E4C500EF1593 /* BRExpandyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
