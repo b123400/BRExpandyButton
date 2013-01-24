@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2C2D6C16B1E4A400EF1593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C2D6B16B1E4A400EF1593 /* UIKit.framework */; };
+		CF2C2D6E16B1E4A400EF1593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C2D6D16B1E4A400EF1593 /* Foundation.framework */; };
+		CF2C2D7016B1E4A500EF1593 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C2D6F16B1E4A400EF1593 /* CoreGraphics.framework */; };
+		CF2C2D7616B1E4A500EF1593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D7416B1E4A500EF1593 /* InfoPlist.strings */; };
+		CF2C2D7816B1E4A500EF1593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C2D7716B1E4A500EF1593 /* main.m */; };
+		CF2C2D7C16B1E4A500EF1593 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C2D7B16B1E4A500EF1593 /* BRAppDelegate.m */; };
+		CF2C2D7E16B1E4A500EF1593 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D7D16B1E4A500EF1593 /* Default.png */; };
+		CF2C2D8016B1E4A500EF1593 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D7F16B1E4A500EF1593 /* Default@2x.png */; };
+		CF2C2D8216B1E4A500EF1593 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D8116B1E4A500EF1593 /* Default-568h@2x.png */; };
+		CF2C2D8516B1E4A500EF1593 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C2D8416B1E4A500EF1593 /* BRViewController.m */; };
+		CF2C2D8816B1E4A500EF1593 /* BRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2C2D8616B1E4A500EF1593 /* BRViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF2C2D6716B1E4A400EF1593 /* BRExpandyButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRExpandyButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2C2D6B16B1E4A400EF1593 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF2C2D6D16B1E4A400EF1593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF2C2D6F16B1E4A400EF1593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF2C2D7316B1E4A500EF1593 /* BRExpandyButtonExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRExpandyButtonExample-Info.plist"; sourceTree = "<group>"; };
+		CF2C2D7516B1E4A500EF1593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF2C2D7716B1E4A500EF1593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2C2D7916B1E4A500EF1593 /* BRExpandyButtonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRExpandyButtonExample-Prefix.pch"; sourceTree = "<group>"; };
+		CF2C2D7A16B1E4A500EF1593 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		CF2C2D7B16B1E4A500EF1593 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		CF2C2D7D16B1E4A500EF1593 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF2C2D7F16B1E4A500EF1593 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF2C2D8116B1E4A500EF1593 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF2C2D8316B1E4A500EF1593 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
+		CF2C2D8416B1E4A500EF1593 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
+		CF2C2D8716B1E4A500EF1593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BRViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2C2D6416B1E4A400EF1593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2C2D6C16B1E4A400EF1593 /* UIKit.framework in Frameworks */,
+				CF2C2D6E16B1E4A400EF1593 /* Foundation.framework in Frameworks */,
+				CF2C2D7016B1E4A500EF1593 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2C2D5C16B1E4A400EF1593 = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D7116B1E4A500EF1593 /* BRExpandyButtonExample */,
+				CF2C2D6A16B1E4A400EF1593 /* Frameworks */,
+				CF2C2D6816B1E4A400EF1593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2C2D6816B1E4A400EF1593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D6716B1E4A400EF1593 /* BRExpandyButtonExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2C2D6A16B1E4A400EF1593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D6B16B1E4A400EF1593 /* UIKit.framework */,
+				CF2C2D6D16B1E4A400EF1593 /* Foundation.framework */,
+				CF2C2D6F16B1E4A400EF1593 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF2C2D7116B1E4A500EF1593 /* BRExpandyButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D7A16B1E4A500EF1593 /* BRAppDelegate.h */,
+				CF2C2D7B16B1E4A500EF1593 /* BRAppDelegate.m */,
+				CF2C2D8316B1E4A500EF1593 /* BRViewController.h */,
+				CF2C2D8416B1E4A500EF1593 /* BRViewController.m */,
+				CF2C2D8616B1E4A500EF1593 /* BRViewController.xib */,
+				CF2C2D7216B1E4A500EF1593 /* Supporting Files */,
+			);
+			path = BRExpandyButtonExample;
+			sourceTree = "<group>";
+		};
+		CF2C2D7216B1E4A500EF1593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C2D7316B1E4A500EF1593 /* BRExpandyButtonExample-Info.plist */,
+				CF2C2D7416B1E4A500EF1593 /* InfoPlist.strings */,
+				CF2C2D7716B1E4A500EF1593 /* main.m */,
+				CF2C2D7916B1E4A500EF1593 /* BRExpandyButtonExample-Prefix.pch */,
+				CF2C2D7D16B1E4A500EF1593 /* Default.png */,
+				CF2C2D7F16B1E4A500EF1593 /* Default@2x.png */,
+				CF2C2D8116B1E4A500EF1593 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2C2D6616B1E4A400EF1593 /* BRExpandyButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2C2D8B16B1E4A500EF1593 /* Build configuration list for PBXNativeTarget "BRExpandyButtonExample" */;
+			buildPhases = (
+				CF2C2D6316B1E4A400EF1593 /* Sources */,
+				CF2C2D6416B1E4A400EF1593 /* Frameworks */,
+				CF2C2D6516B1E4A400EF1593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRExpandyButtonExample;
+			productName = BRExpandyButtonExample;
+			productReference = CF2C2D6716B1E4A400EF1593 /* BRExpandyButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2C2D5E16B1E4A400EF1593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = b123400;
+			};
+			buildConfigurationList = CF2C2D6116B1E4A400EF1593 /* Build configuration list for PBXProject "BRExpandyButtonExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF2C2D5C16B1E4A400EF1593;
+			productRefGroup = CF2C2D6816B1E4A400EF1593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2C2D6616B1E4A400EF1593 /* BRExpandyButtonExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2C2D6516B1E4A400EF1593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2C2D7616B1E4A500EF1593 /* InfoPlist.strings in Resources */,
+				CF2C2D7E16B1E4A500EF1593 /* Default.png in Resources */,
+				CF2C2D8016B1E4A500EF1593 /* Default@2x.png in Resources */,
+				CF2C2D8216B1E4A500EF1593 /* Default-568h@2x.png in Resources */,
+				CF2C2D8816B1E4A500EF1593 /* BRViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2C2D6316B1E4A400EF1593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2C2D7816B1E4A500EF1593 /* main.m in Sources */,
+				CF2C2D7C16B1E4A500EF1593 /* BRAppDelegate.m in Sources */,
+				CF2C2D8516B1E4A500EF1593 /* BRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF2C2D7416B1E4A500EF1593 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2C2D7516B1E4A500EF1593 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF2C2D8616B1E4A500EF1593 /* BRViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2C2D8716B1E4A500EF1593 /* en */,
+			);
+			name = BRViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2C2D8916B1E4A500EF1593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2C2D8A16B1E4A500EF1593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2C2D8C16B1E4A500EF1593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRExpandyButtonExample/BRExpandyButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "BRExpandyButtonExample/BRExpandyButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF2C2D8D16B1E4A500EF1593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRExpandyButtonExample/BRExpandyButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "BRExpandyButtonExample/BRExpandyButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2C2D6116B1E4A400EF1593 /* Build configuration list for PBXProject "BRExpandyButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2C2D8916B1E4A500EF1593 /* Debug */,
+				CF2C2D8A16B1E4A500EF1593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2C2D8B16B1E4A500EF1593 /* Build configuration list for PBXNativeTarget "BRExpandyButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2C2D8C16B1E4A500EF1593 /* Debug */,
+				CF2C2D8D16B1E4A500EF1593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2C2D5E16B1E4A400EF1593 /* Project object */;
+}
