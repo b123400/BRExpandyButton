@@ -6,4 +6,5 @@ Pod::Spec.new do |s|
   s.source         = { :git => 'git@github.com:b123400/BRExpandyButton.git'	}
   s.source_files   = 'BRExpandyButton/*.{h,m}'
   s.platform = :ios
+  s.requires_arc = true
 end
