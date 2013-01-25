@@ -22,3 +22,7 @@ It
     expandButton.selectedButton=/*バルス！*/;
 
 [1]: http://b123400.github.com/BRExpandyButton/screenshot.png
+
+
+##License
+This project is under MIT License.
